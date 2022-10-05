@@ -32,7 +32,7 @@ header{
 
 header > h1{
     color: white;
-    font-size: 180px;
+    font-size: 10vw;
     font-family: var(--fonte2);
     font-weight: 600;
 }
@@ -55,7 +55,7 @@ header > p > a:hover{
 
 section{
     font-family: var(--fonte3);
-    font-size: 2em;
+    font-size: 3.5vw;
     padding-top: 70px;
     padding-left: 30px;
 }
