@@ -67,7 +67,7 @@ section.normal{
 section.imagem{
     padding-top: 70px;
     padding-bottom: 60px;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
 }
