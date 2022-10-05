@@ -65,27 +65,31 @@ section.normal{
 }
 
 section.imagem{
-
     padding-top: 70px;
     padding-bottom: 60px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.493);
+    background-color: rgba(0, 0, 0, 0.329);
     padding: 5px;
     color: white;
     display: inline-block;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.493);
 }
 
 #img01{
-  background-position: right center;  
-background-image: url('img/background001.jpg');
+    background-position: right center;  
+    background-image: url('img/background001.jpg');
+    
 }
 
 
 #img02{
     background-image: url('img/background002.jpg') ;
-
+    
 }
 
 footer{
