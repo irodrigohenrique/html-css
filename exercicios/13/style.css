@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(pasta/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor: #fff;
+    --cor0: #72F2EB;
+    --cor1: #00ccbe3d;
+    --cor2: #72f2ec67;
+    --cor3: #0a7485;
+    --cor4: #747E7E;
+    --cor5:#575e5e ;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-android: 'android' ,cursive;
+
+}
+
+*{
+margin: 0%;
+padding: 0%;
+}
+
+
+body{
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    background-color: var(--cor1);
+    font-size: normal;
+    font-weight: normal;
+}
+
+
+header{  
+    color: white;
+    background-image: linear-gradient(to bottom,var(--cor1), var(--cor3)); 
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 10px;
+    box-shadow: 1px 0px 1px rgb(0, 0, 0);
+}
+
+header > h1{
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.315);
+    font-size: 4em;
+    padding-bottom: 30px;
+    font-weight: normal;
+}
+
+header > p{
+    padding-bottom: 10px;
+    font-size: 1.4em;
+}
+
+header > nav > a{
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    padding: 15px;
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h1{
+    color: var(--cor3);
+    padding: 10px;
+    font-family: var(--fonte-android);
+}
+
+main > h2{
+    color: var(--cor3);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    border-radius: 5px;
+    font-family: var(--fonte-android);
+    padding: 10px;
+}
+
+main > p{
+    line-height: 30px;
+    text-indent: 30px;
+}
+
+aside{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+    background-color: var(--cor2);
+    padding: 20px;
+    border-radius: 10px;
+}
+aside > h3{
+    color: #fff;
+    margin: -20px -20px 0 -20px;
+    background-color: var(--cor3);
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside > p{
+    padding: 10px;
+    text-indent: 30px;
+}
