@@ -24,10 +24,11 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    padding-top: 20px ;
+    padding-top: 10px ;
     padding-left: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-right: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.192);
     
 }
 
@@ -48,8 +49,9 @@ body{
 }
 
 .menu-item{
+    font-family: var(--fonte-header);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     color: #6a6d75;
     text-decoration: none;
     display: inline-block;
@@ -66,9 +68,10 @@ body{
 
 .principal-logo{
     font-size: 3em;
-    padding-top: 20px;
+    padding-top: 40px;
     text-align: center;
     padding-bottom: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.274);
 }
 
 .principal-paragrafo{
@@ -78,40 +81,72 @@ body{
     margin: auto;
     width: 700px;
     line-height: 2em; 
+    padding-bottom: 30px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.274);
 }
 
 .conteudo{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 50px;
+
 }
 
 .conteudo-principal-um{
-    display: inline-block;
+    border-radius: 10px;
     background-color: #fff;
     width: 400px;
     height: 400px;
-    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.158);
+    
 }
+
+.conteudo-principal-um > img{
+    width: 400px;
+    height: 200px;
+
+}
+
 
 .conteudo-principal-dois{
-    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+    background-position: top center;
+    border-radius: 10px;
     background-color: #fff;
     width: 400px;
     height: 400px;
     text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.158);
 
 }
+
+.conteudo-principal-dois > img{
+    width: 400px;
+    height: 200px;
+
+}
+
+
 
 .conteudo-principal-tres{
-    display: inline-block;
+    border-radius: 10px;
+    
     background-color: #fff;
     width: 400px;
     height: 400px;
     text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.158);
 
 }
+
+.conteudo-principal-tres > img{
+    width: 400px;
+    height: 200px;
+
+}
+
+
 
 .conteudo-cabecalho{
     font-size: 15px;
@@ -126,11 +161,9 @@ body{
 }
 
 .conteudo-texto{
-    color: #6a6d75;;
-    text-align: justify;
+    color: #6a6d75;
     font-size: 15px;
     padding: 9px 20px 20px 20px;
-
 }
 
 
@@ -140,6 +173,7 @@ body{
     align-items: center;
     justify-content: center;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .botao > input{
@@ -152,25 +186,77 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 30px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.219);
 }
 
 .botao > input:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
+.artigo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: #fff;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.836));
+    min-width:800px;
+    max-height: 200px;
+    min-height: 250px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+
+.artigo-principal-um{
+    padding: 20px;
+
+}
+
+.artigo-principal-dois{
+    padding: 20px;
+}
+
+.artigo-principal-tres{
+    padding: 20px;
+
+}
+
+
+
+.cabecalho-artigo{
+    font-weight: bolder;
+    color:#d9dadf;
+    border-bottom: 1px solid #d9dadf3a;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.texto-artigo{
+    color: #d9dadf;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
 .fim{
-    background-color: #000000c0;
+    background-color: black;
+    padding: 2px;
 }
 
 .fim > p{
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
-    font-size: 14px;
+    font-size: 8px;
 }
 
 .fim > p >a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    
 } 
 
 
