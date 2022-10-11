@@ -43,10 +43,27 @@ body{
 .cabecalho-dois nav a{
     color: black;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
 
+
+}
+
+
+.img-top{
+    position: absolute;
+    width: 15px;
+    left: 528px;
+    top: 5px;
+
+}
+
+.img-top-dois{
+    position: absolute;
+    width: 15px;
+    left: 923px;
+    top: 5px;
 
 }
 
