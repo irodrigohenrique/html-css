@@ -8,8 +8,8 @@ body{
 }
 
 .cabecalho-um{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
     display: flex;
     justify-content: space-around;
     padding: 7px;
@@ -27,8 +27,32 @@ body{
 }
 
 .cabecalho-dois img{
-    width: 80px;
+    width: 65px;
     padding-left: 30px;
+}
+
+.cabecalho-dois-lado{
+    text-align: right;
+    font-size: 9.5px;
+    position: absolute;
+    padding-right: 20px;
+    right: 0px;
+    top: 28px;
+
+}
+
+
+.cabecalho-dois-lado a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.719);
+    padding-right: 10px ;
+}
+
+.cabecalho-dois-lado a:hover{
+    text-decoration: underline;
 }
 
 .cabecalho-dois{
@@ -37,24 +61,22 @@ body{
     justify-content: space-between;
 }
 .cabecalho-dois nav {
-    margin-top: 30px;
+    padding-top: 20px;
 }
 
 .cabecalho-dois nav a{
     color: black;
     text-decoration: none;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
-
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 
 .img-top{
     position: absolute;
     width: 15px;
-    left: 528px;
+    left: 525px;
     top: 5px;
 
 }
@@ -62,9 +84,16 @@ body{
 .img-top-dois{
     position: absolute;
     width: 15px;
-    left: 923px;
-    top: 5px;
+    left: 924px;
+    top: 4.8px;
 
+}
+
+.img-top-tres{
+    position: absolute;
+    width: 16px;
+    left: 126px;
+    top: 4px;
 }
 
 .cabecalho-dois nav a:hover{
@@ -73,9 +102,36 @@ body{
 }
 
 .cabecalho-dois-botao{
-    padding-right: 100px;
+    position: absolute;
+    padding-top: 20px;
+    right: 180px;
     
 }
+
+
+.cabecalho-dois-botao input{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rgba(213, 214, 214, 0.445);
+    padding: 7px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.cabecalho-dois .img-um{
+
+    width: 20px;
+    margin-top: 29px;
+    margin-right: 32px;
+    padding: 0;
+
+}
+
+.cabecalho-dois a{
+    padding: px;
+}
+
 
 .cabecalho-tres{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
