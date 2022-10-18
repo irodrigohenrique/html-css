@@ -68,6 +68,8 @@ header{
     background-color: #017143
 }
 
+
+
 .social-media{
     display: flex;
     flex-direction: column;
@@ -119,4 +121,53 @@ header{
     right: 50%;
     bottom: 10px;
     justify-content: center;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+
+    body{
+        padding: 10px;
+    }
+
+    .extras{
+        border-radius: 100% 0% 0% 0%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 490px;
+        height: 580px;
+        background-color: #017143
+    }
+
+
+    .extras img{
+        width: 310px;
+    }
+}
+
+
+@media screen and (max-width:1440px){
+    body{
+        padding: 10px;
+    }
+
+    .extras{
+        border-radius: 100% 0% 0% 0%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 490px;
+        height: 480px;
+        background-color: #017143
+    }
+
+
+    .extras img{
+        width: 260px;
+    }
+
 }
